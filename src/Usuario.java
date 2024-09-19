@@ -2,12 +2,15 @@
 public class Usuario {
 	public static void main(String[] args) {
 		Iphone iphone = new Iphone();
+		//telefone
 		iphone.ligar();
 		iphone.atender();
-		iphone.encerrarChamada();
+		iphone.iniciarCorreioVoz();
+		//internet
 		iphone.exibirPagina();
-		iphone.adicionarNovaGuia();
-		iphone.AtualizarGuia();
+		iphone.adicionarNovaAba();
+		iphone.atualizarPagina();
+		//musica
 		iphone.tocarMusica();
 		iphone.pausarMusica();
 		iphone.selecionarMusica();

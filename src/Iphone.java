@@ -7,11 +7,11 @@ public class Iphone implements Internet,MusicPlayer,Telefone {
 		System.out.println("Exibindo Pagina");
 		
 	}
-	public void adicionarNovaGuia() {
+	public void adicionarNovaAba() {
 		System.out.println("Adicionar nova guia");	
 	}
 
-	public void AtualizarGuia() {
+	public void atualizarPagina() {
 		System.out.println("Atualizar pagina");
 	}
 	//Chamadas
@@ -26,8 +26,8 @@ public class Iphone implements Internet,MusicPlayer,Telefone {
 		
 	}
 	@Override
-	public void encerrarChamada() {
-		System.out.println("Encerrar Chamada");
+	public void iniciarCorreioVoz() {
+		System.out.println("Iniciar correiro de voz");
 		
 	}
 	//Music Player
